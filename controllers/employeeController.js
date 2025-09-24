@@ -28,7 +28,7 @@ const deleteEmployee = (req, res)=> {
 
 const editEmployee = (req, res)=> {
     const currentEmployee = data.employees.find((item)=> item.id === Number(req.params.id))
-    currentEmployee.firstname = req.body.firstName
+    currentEmployee.firstName = req.body.firstName
     res.json(data.employees)
 }
 
@@ -38,4 +38,4 @@ module.exports = {
     getAnEmployee,
     deleteEmployee,
     editEmployee
-}
+}       

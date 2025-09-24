@@ -6,3 +6,7 @@
 16/09/2025	21:39:39	122aa268-7b09-4df1-b5ce-4a8dcf47180c	Error	secretOrPrivateKey must have a value
 16/09/2025	21:46:17	edbf9c20-8600-4056-8624-58684c2c48f9	Error	secretOrPrivateKey must have a value
 16/09/2025	21:47:35	34e9d792-d934-4ec4-aded-9235966413c9	Error	ENOENT: no such file or directory, open 'C:\Users\18028\OneDrive\Desktop\Quick Access\Tesings\secondtest\model\users.json'
+23/09/2025	20:38:43	6702661c-e483-41ac-9ce3-8c3cf0434b75	ReferenceError	resSentStatue is not defined
+23/09/2025	20:41:13	b6623ee6-0597-4b21-95c4-ab5600504146	ReferenceError	resSentStatus is not defined
+23/09/2025	20:42:12	57d94341-7954-4240-8ada-2ec1d1079817	TypeError	res.SentStatus is not a function
+23/09/2025	20:42:55	4f5c2154-5f4c-47bf-8c2d-0fd7ac76ae76	TypeError	res.SendStatus is not a function

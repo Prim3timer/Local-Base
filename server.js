@@ -21,6 +21,9 @@ app.use(express.static(path.join(__dirname, '/public')))
 app.use('/', require('./routes/subdir'))
 app.use('/auth', require('./routes/auth'))
 app.use('/register', require('./routes/register'))
+app.use('/refresh', require('./routes/refresh'))
+app.use('/logout', require('./routes/logout'))
+
 app.use(verifyJWT)
 app.use('/employees', require('./routes/api/employees'))
 

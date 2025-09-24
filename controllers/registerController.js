@@ -17,7 +17,9 @@
      if (duplicate) return res.sendStatus(409) //conflict
      try {
         const hashedPassword = await bcrypt.hash(pwd, 10)
-        const newUser = {"username": user, "password": hashedPassword }
+        const newUser = {"username": user,
+         "roles": {"User": 2001},
+         "password": hashedPassword }
         usersDB.setUser([...usersDB.users, newUser])
         await fsPromises.writeFile(path.join(__dirname, '..', 'models', 'users.json' ),
         JSON.stringify(usersDB.users))
